@@ -1,0 +1,23 @@
+{
+  "name": "dc-gaskets",
+  "private": true,
+  "version": "1.0.0",
+  "author": "@CaesarDeveloper (https://github.com/CaesarDeveloper)",
+  "description": "DC Gaskets - Corporate webpage",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8182",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1"
+  },
+  "devDependencies": {
+    "prettier": "2.6.0",
+    "vite": "^2.9.9",
+    "vite-plugin-compression": "^0.3.1",
+    "vite-plugin-imagemin": "^0.4.1"
+  }
+}
